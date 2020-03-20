@@ -1,0 +1,16 @@
+Bankkortet är inte accepterad, så använder jag Tomcat istället.
+
+Krävs:
+web.xml servlet version 3.0.
+Lägga till en databas med namnet "notes". 3 kolumner, 
+"id" primär nyckel, auto increment,
+"note_header" varchar
+"note" varchar
+
+Ändra databas uppgifter i:
+DisplayNotes.java,
+AddController.java
+
+Kanske behövs verifiering genom att exekvera scripten i MYSQL Workbench:
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '<lösenord>';
+
