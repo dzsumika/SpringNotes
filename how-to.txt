@@ -1,16 +1,18 @@
-Bankkortet ‰r inte accepterad, sÂ anv‰nder jag Tomcat ist‰llet.
+Bankkortet √§r inte accepterad, s√• anv√§nder jag Tomcat ist√§llet.
 
-Kr‰vs:
+Detta √§r en Maven Project.
+
+Kr√§vs:
 web.xml servlet version 3.0.
-L‰gga till en databas med namnet "notes". 3 kolumner, 
-"id" prim‰r nyckel, auto increment,
+L√§gga till en databas med namnet "notes". 3 kolumner, 
+"id" prim√§r nyckel, auto increment,
 "note_header" varchar
 "note" varchar
 
-ƒndra databas uppgifter i:
+√Ñndra databas uppgifter i:
 DisplayNotes.java,
 AddController.java
 
-Kanske behˆvs verifiering genom att exekvera scripten i MYSQL Workbench:
-ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '<lˆsenord>';
+Kanske beh√∂vs verifiering genom att exekvera scripten i MYSQL Workbench:
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '<l√∂senord>';
 
